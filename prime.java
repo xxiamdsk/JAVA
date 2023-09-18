@@ -2,7 +2,7 @@ import java.io.*;
 class prime {
     public static void main(String[] args) {
         Console c = System.console();
-        int n = Integer.parseInt(console.readLine("Enter a number: "));
+        int n = Integer.parseInt(c.readLine("Enter a number: "));
         boolean isPrime = true;            
         for (int j = 2; j < n/2; j++) 
         {
