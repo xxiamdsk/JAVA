@@ -1,6 +1,6 @@
 import java.io.Console;
 
-public class addtionofarray {
+class addtionofarray {
     static Console c = System.console();
     static int row = Integer.parseInt(c.readLine("Enter number of rows : "));
     static int col = Integer.parseInt(c.readLine("Enter number of cols : "));
