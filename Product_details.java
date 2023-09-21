@@ -1,5 +1,5 @@
 import java.io.*;
-public class product {
+public class Product_details {
     public static void main(String[] args) {
         Console c=System.console();
     String s= c.readLine("Enter ur name");

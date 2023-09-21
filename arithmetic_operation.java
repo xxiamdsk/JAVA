@@ -1,6 +1,6 @@
 import java.io.*;
 
-public class arithmetic_operation {
+public class Arithmetic_operation {
     public static void main(String[] args) {
         Console c = System.console();
         int a=Integer.parseInt(c.readLine("Enter yout first number :"));

@@ -1,6 +1,6 @@
 import java.io.Console;
 
-public class greatestAndsmallest {
+public class Greatest_and_Smallest {
     public static void main(String[] args) {
         Console c = System.console();
         int n = Integer.parseInt(c.readLine("Enter first number: "));

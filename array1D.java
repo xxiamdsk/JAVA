@@ -1,6 +1,6 @@
 import java.io.Console;
 
-class array1D {
+class Array1D {
     static Console c = System.console();
     static int n = Integer.parseInt(c.readLine("Enter size of array : "));
     static int arr[] = new int[n];

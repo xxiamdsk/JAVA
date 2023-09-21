@@ -1,5 +1,5 @@
 import java.io.*;
-public class order {
+public class Order_details {
     public static void main(String[] args) {
     Console c=System.console();
     String s= c.readLine("Enter order id");

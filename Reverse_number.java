@@ -1,6 +1,6 @@
 import java.io.Console;
 
-public class reverseNumber {
+public class Reverse_number {
     public static void main(String[] args) {
         Console c = System.console();
         int n = Integer.parseInt(c.readLine("Enter a number: "));

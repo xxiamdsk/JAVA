@@ -1,6 +1,6 @@
 import java.io.*;
 
-class monthandyear {
+class Month_and_year {
     public static void main(String[] args) {
         Console c = System.console();
         int m = Integer.parseInt(c.readLine("Enter your month number"));

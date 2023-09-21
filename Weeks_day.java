@@ -1,6 +1,6 @@
 import java.io.Console;
 
-public class day {
+public class Weeks_day {
     public static void main(String[] args) {
         Console c=System.console();
 

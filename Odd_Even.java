@@ -1,6 +1,6 @@
 import java.io.Console;
 
-class OddEven
+class Odd_Even
 {
   public static void main (String[]args)
   {
