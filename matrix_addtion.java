@@ -1,6 +1,6 @@
 import java.io.Console;
 
-public class matrix_addtion {
+public class addtionofarray {
     static Console c = System.console();
     static int row = Integer.parseInt(c.readLine("Enter number of rows : "));
     static int col = Integer.parseInt(c.readLine("Enter number of cols : "));
@@ -9,7 +9,7 @@ public class matrix_addtion {
     static int arr3[][] = new int[row][col];
 
     public static void main(String[] args) {
-        matrix_addtion ob = new matrix_addtion();
+        addtionofarray ob = new addtionofarray();
         ob.input();
         ob.output();
         ob.add();

@@ -1,6 +1,6 @@
 import java.io.*;
 
-public class Array2D {
+public class array2D {
     static Console c = System.console();
     static int row = Integer.parseInt(c.readLine("Enter number of rows : "));
     static int col = Integer.parseInt(c.readLine("Enter number of cols : "));
