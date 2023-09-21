@@ -1,12 +1,12 @@
 import java.io.Console;
 
-public class addtionofarray {
-    static Console c = System.console();
-    static int row = Integer.parseInt(c.readLine("Enter number of rows : "));
-    static int col = Integer.parseInt(c.readLine("Enter number of cols : "));
-    static int arr[][] = new int[row][col];
-    static int arr2[][] = new int[row][col];
-    static int arr3[][] = new int[row][col];
+ class addtionofarray {
+     Console c = System.console();
+     int row = Integer.parseInt(c.readLine("Enter number of rows : "));
+     int col = Integer.parseInt(c.readLine("Enter number of cols : "));
+     int arr[][] = new int[row][col];
+     int arr2[][] = new int[row][col];
+     int arr3[][] = new int[row][col];
 
     public static void main(String[] args) {
         addtionofarray ob = new addtionofarray();

@@ -1,10 +1,10 @@
 import java.io.*;
 
-public class array2D {
-    static Console c = System.console();
-    static int row = Integer.parseInt(c.readLine("Enter number of rows : "));
-    static int col = Integer.parseInt(c.readLine("Enter number of cols : "));
-    static int arr[][] = new int[row][col];
+class array2D {
+     Console c = System.console();
+     int row = Integer.parseInt(c.readLine("Enter number of rows : "));
+     int col = Integer.parseInt(c.readLine("Enter number of cols : "));
+     int arr[][] = new int[row][col];
 
     public static void main(String[] args) {
         array2D ob = new array2D();
