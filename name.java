@@ -1,5 +1,5 @@
 import java.io.*;
-public class Test {
+public class name {
     public static void main(String[] args) {
         Console c = System.console();
         String s = c.readLine("Enter first name");
