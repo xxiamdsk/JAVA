@@ -1,19 +1,19 @@
-class classes {
-    classes() {
+class Class {
+    Class() {
         System.out.println("class classes called");
     }
 
-    classes(int a) {
+    Class(int a) {
         System.out.println("single parameterised called");
     }
-    public static void main(String[] args) {
-        classes ob = new classes();
-    }
-
 
 }
 
+class classes {
+    public static void main(String[] args) {
+    Class ob = new Class();
+    Class ob1 = new Class(5);
 
-class Innerclasses {
-    
+    }
+
 }

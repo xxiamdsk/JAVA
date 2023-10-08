@@ -1,13 +1,13 @@
 import java.io.*;
 
-public class array2D {
+class array2D {
     static Console c = System.console();
     static int row = Integer.parseInt(c.readLine("Enter number of rows : "));
     static int col = Integer.parseInt(c.readLine("Enter number of cols : "));
     static int arr[][] = new int[row][col];
 
     public static void main(String[] args) {
-        Array2D ob = new Array2D();
+        array2D ob = new array2D();
         ob.input();
         ob.output();
 
