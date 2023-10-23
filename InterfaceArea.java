@@ -10,7 +10,7 @@ class Square implements Shape {
         System.out.println("square accept called");
     }
 }
-cass Rectangle implements Shape {
+class Rectangle implements Shape {
     public void accept() {
         System.out.println("rectangle accept called");
     }
@@ -21,6 +21,8 @@ cass Rectangle implements Shape {
 }
 class InterfaceArea {
     public static void main(String[] args) {
+        Shape f = new Square();//indirect object creating of interface Shape
+        f.accept();
         Square ob = new Square();
         Rectangle ob1 = new Rectangle();
         ob.accept();
