@@ -1,4 +1,3 @@
-import java.io.Console;
 
 public class constructor {
     constructor() {
@@ -10,7 +9,7 @@ public class constructor {
     }
 
     public static void main(String[] args) {
-        constructor ob = new constructor();
-        constructor ob1 = new constructor(5);
+        new constructor();
+        new constructor(5);
     }
 }

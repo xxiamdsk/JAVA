@@ -23,10 +23,10 @@ public class constructoroverloading {
     }
 
     public static void main(String[] args) {
-        constructoroverloading o1 = new constructoroverloading();
-        constructoroverloading o2 = new constructoroverloading(2);
-        constructoroverloading o3 = new constructoroverloading(2, 3);
-        constructoroverloading o4 = new constructoroverloading(3, "deepak");
-        constructoroverloading o5 = new constructoroverloading("deepak", 2);
+        new constructoroverloading();
+        new constructoroverloading(2);
+        new constructoroverloading(2, 3);
+        new constructoroverloading(3, "deepak");
+        new constructoroverloading("deepak", 2);
     }
 }
