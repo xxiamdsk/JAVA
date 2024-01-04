@@ -7,6 +7,7 @@ public class StringManipulation {
         String str = "Hello";
         String str2 = "World";
         String str3 = "Hello";
+        String s="1";
         System.out.println(str.length());// length of string
         System.out.println(str.concat(str2));// concatination
         System.out.println(str.charAt(0));// char at index
@@ -20,6 +21,7 @@ public class StringManipulation {
         System.out.println(str.trim());// trim
         System.out.println(str.replace("e", "a"));// replace
         System.out.println(str.contains("e"));// contains
-        
+        System.out.println(s.contains("1"));
+
     }
 }

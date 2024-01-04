@@ -1,7 +1,7 @@
 class delay extends Thread {
    
     public void run() {
-        System.out.println(s);
+        
         for (int i = 0; i <=10; i++) {
             System.out.println("2*"+i+"="+i*2);
             try{Thread.sleep(800);}
@@ -10,7 +10,7 @@ class delay extends Thread {
         }
     }
     public static void main(String[] args) {
-        delay ob1 = new delay("a");
+        delay ob1 = new delay();
         ob1.start();
        
     }

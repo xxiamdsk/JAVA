@@ -1,4 +1,4 @@
-package file2;
+import file.APublic;
 
 public class CPublic {
     void m1() {
@@ -18,5 +18,7 @@ public class CPublic {
     }
 public static void main(String[] args) {
     System.out.println("I'm in public class C");
+    APublic o= new APublic();
+        o.m2();
 }    
 }
