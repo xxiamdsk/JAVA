@@ -11,5 +11,6 @@ public class constructor {
     public static void main(String[] args) {
         new constructor();
         new constructor(5);
+        constructor c = new constructor(4);
     }
 }
